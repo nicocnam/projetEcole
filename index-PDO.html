@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Page de connexion</title>
+		<style>
+		label{
+			display: inline-block;
+			width: 100px;
+		}
+		#button{
+			margin-left: 100px;
+		}
+		</style>
+	</head>
+	<body>
+		<form method="post" action="controlPasswordDansBDD-PDO.php">
+		<p>
+			<label>Identifiant : </label>
+			<input type="text" name="Identifiant" size="30">
+		<br>
+			<label>Mot de passe : </label>
+			<input type="password" name="MotDePasse" size="30">
+		</p>
+		<p>
+			<input id="button" type="submit" value="VALIDER">
+		</p>
+		</form>
+	</body>
+</html>
