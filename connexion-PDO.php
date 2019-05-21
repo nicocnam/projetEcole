@@ -1,6 +1,6 @@
 <?php
 //connexion à une base de données avec PDO (programmation OBJET)
-$serverBDD = "mysql:host=localhost; dbname=users; charset=utf8";
+$serverBDD = "mysql:host=localhost; dbname=ecole; charset=utf8";
 $user = "root";
 $password = "root";
 try {
