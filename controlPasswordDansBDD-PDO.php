@@ -30,11 +30,11 @@
 					switch ($result['DROITS']){
 						case 'admin' : echo "Bienvenue administrateur ".$identifiant; 
 						break;
-						case 'user' : echo "Bienvenue utilisateur ".$identifiant; 
+						case 'enseignant' : echo "Bienvenue enseignant ".$identifiant; 
 						break;
-						case 'invited' : echo "Bienvenue invité ".$identifiant; 
+						case 'etudiant' : echo "Bienvenue étudiant ".$identifiant; 
 						break;
-						default : echo "Pas de droits enregistrés pour ".$identifiant; 
+						default : echo "Bienvenue visiteur ".$identifiant; 
 						break;
 					}
 				}
